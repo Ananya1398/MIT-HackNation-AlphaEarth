@@ -33,7 +33,7 @@ const GoogleMapView = ({
   userLocation,
   isAnalyzing,
   disasterType,
-  mapDisasterType = "flood" ,
+  mapDisasterType,
   startDate,
   endDate,
   regions,
@@ -258,7 +258,7 @@ const GoogleMapView = ({
           },
           body: JSON.stringify({
             counties: countyDataForApi,
-            disaster_type: disasterType,
+            disaster_type: mapDisasterType,
             start_date: startDate?.toISOString(),
             end_date: endDate?.toISOString(),
             timestamp: new Date().toISOString()
@@ -274,6 +274,7 @@ const GoogleMapView = ({
               riskMap.set(item.county.trim().toLowerCase(), item);
             });
             setCountyRiskData(riskMap);
+            
 
         }
       } catch (error) {
@@ -392,7 +393,7 @@ const getCategoryColor = (category: "Low" | "Medium" | "High") => {
 
 
   useEffect(() => {
-    if (mapRef.current && !isAnalyzing) {
+    if (mapRef.current) {
       styleMapFeatures(mapRef.current);
     }
   }, [mapDisasterType, countyRiskData]);

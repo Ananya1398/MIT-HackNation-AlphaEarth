@@ -168,7 +168,7 @@ const RiskMap = ({ coordinates, isAnalyzing, disasterType, startDate, endDate, o
             {isAnalyzing && coordinates ? "Location Risk Map" : "Global Risk Map"}
           </h3>
         </div>
-        {!isAnalyzing && (
+      
           <ToggleGroup 
             type="single" 
             value={mapDisasterType}
@@ -181,7 +181,7 @@ const RiskMap = ({ coordinates, isAnalyzing, disasterType, startDate, endDate, o
               Hurricane
             </ToggleGroupItem>
           </ToggleGroup>
-        )}
+      
       </div>
 
 
