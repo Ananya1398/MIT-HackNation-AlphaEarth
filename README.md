@@ -33,9 +33,13 @@ Frontend runs on http://localhost:5173
 ### Dependencies
 ## Backend (Node.js)
 express ^5.1.0
+
 cors ^2.8.5
+
 csv-parser ^3.2.0
+
 dotenv ^17.2.3
+
 ## Python
 pandas
 numpy
