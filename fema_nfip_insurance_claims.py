@@ -17,7 +17,7 @@ CURRENT_YEAR = datetime.now().year
 NFIP_URL = "https://www.fema.gov/api/open/v2/FimaNfipClaims"
 
 # Output folder
-OUT_DIR = os.path.join(os.getcwd(), "insurance")
+OUT_DIR = os.path.join(os.getcwd(), "insurance_data")
 os.makedirs(OUT_DIR, exist_ok=True)
 
 # Coordinates (approximate centers of states)
