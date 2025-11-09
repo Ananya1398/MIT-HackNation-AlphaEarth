@@ -64,6 +64,9 @@ shadcn/ui components
 
 ### Team Members
 Shivani Sharma
+
 Ananya Asthana
+
 Orijeet Mukherjee
+
 Jane Millward
