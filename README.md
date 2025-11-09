@@ -17,7 +17,7 @@ A real-time multi-hazard risk assessment platform that generates Low/Medium/High
 git clone https://github.com/shivani1805/AlphaEarth-HackNation-MIT.git
 cd AlphaEarth-HackNation-MIT
 npm install
-pip install pandas numpy requests tqdm
+pip install -r requirements.txt
 npm start
 Server runs on http://localhost:5001
 ```
@@ -32,41 +32,27 @@ Frontend runs on http://localhost:5173
 
 ## Dependencies
 ### Backend (Node.js)
-express ^5.1.0
-
-cors ^2.8.5
-
-csv-parser ^3.2.0
-
-dotenv ^17.2.3
+- express ^5.1.0
+- cors ^2.8.5
+- csv-parser ^3.2.0
+- dotenv ^17.2.3
 
 ### Python
-pandas
-
-numpy
-
-requests
-
-tqdm
+- pandas
+- numpy
+- requests
+- tqdm
 
 ### Frontend
-React 18+
-
-TypeScript
-
-Vite
-
-@react-google-maps/api
-
-Tailwind CSS
-
-shadcn/ui components
+- React 18+
+- TypeScript
+- Vite
+- @react-google-maps/api
+- Tailwind CSS
+- shadcn/ui components
 
 ### Team Members
-Shivani Sharma
-
-Ananya Asthana
-
-Orijeet Mukherjee
-
-Jane Millward
+- Shivani Sharma
+- Ananya Asthana
+- Orijeet Mukherjee
+- Jane Millward
