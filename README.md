@@ -30,8 +30,8 @@ npm run dev
 Frontend runs on http://localhost:5173
 ```
 
-### Dependencies
-## Backend (Node.js)
+## Dependencies
+### Backend (Node.js)
 express ^5.1.0
 
 cors ^2.8.5
@@ -40,17 +40,26 @@ csv-parser ^3.2.0
 
 dotenv ^17.2.3
 
-## Python
+### Python
 pandas
+
 numpy
+
 requests
+
 tqdm
-## Frontend
+
+### Frontend
 React 18+
+
 TypeScript
+
 Vite
+
 @react-google-maps/api
+
 Tailwind CSS
+
 shadcn/ui components
 
 ### Team Members
